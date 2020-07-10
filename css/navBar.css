@@ -3,6 +3,7 @@
     top: 0;
     left: 0;
     min-width: 100%;
+    z-index: 999999;
 }
 .logo{
     max-height: 50px;
