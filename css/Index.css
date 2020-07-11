@@ -35,7 +35,8 @@
     box-sizing: border-box;
     justify-content: right;
     align-items: center;
-    transition: 0.5s; 
+    transition: 0.5s;
+    flex-direction: row-reverse;
 }
 .copy h2{
     margin: 8%;
@@ -65,7 +66,7 @@
 }
 @media(max-width: 1023px){
     .titulo{
-        top: 25%;
+        top: 30%;
     }
     .copy{
         align-items: end;
@@ -81,9 +82,10 @@
     }
     .copy{
         left: 39%;
+        min-width: 145vw;
     }
     .move{
-        left: -20%;
+        left: -35%;
     }
     .move-titulo{
         font-size: 11vw;
@@ -97,7 +99,7 @@
         font-size: 15vw;
     }
     .copy h2{
-        max-width: 70%;
+        /* max-width: 67%; */
         font-size: larger;
     }
 }
