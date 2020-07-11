@@ -31,14 +31,12 @@
     min-width: 120vw;
     background-color: yellow;
     text-align: center;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: right;
-    align-items: center;
     transition: 0.5s;
-    flex-direction: row-reverse;
 }
-.copy h2{
+.slogan{
+    position: relative;
+    top: 20vh;
+    left: 50%;
     margin: 8%;
     max-width: 30%;
 }
@@ -75,6 +73,10 @@
         font-size: 11vw;
         left: 5%;
     }
+    .slogan{
+        left: 53%;
+        top: 60vh;
+    }
 }
 @media(max-width: 700px){
     .titulo{
@@ -90,15 +92,20 @@
     .move-titulo{
         font-size: 11vw;
     }
-    .copy h2{
-        max-width: 50%;
+    .slogan{
+        max-width: 40%;
+        left: 35%;
+        top: 60vh;
     }
 }
 @media(max-width: 500px){
     .move-titulo{
         font-size: 15vw;
     }
-    .copy h2{
+    .slogan{
+        max-width: 50%;
+        top: 55vh;
+        left: 33%;
         /* max-width: 67%; */
         font-size: larger;
     }
