@@ -1,5 +1,5 @@
 .nav-bar{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     min-width: 100%;
@@ -8,16 +8,18 @@
 .logo{
     max-height: 50px;
     float: right;
+    margin-top: 65px;
 }
 .anvorguesa{
     position: relative;
-    border: black 3px solid;
+    border: black 2px solid;
     height: 40px;
     width: 40px;
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
     z-index: 1;
+    margin-top: 65px;
 }
 .anvorguesito{
     position: relative;
@@ -47,7 +49,7 @@
     top: 0;
     background-color: purple;
     min-width: 100vw;
-    height: 80vh;
+    height: 85vh;
     transition: 0.5s;
 }
 .showMenu{
@@ -81,7 +83,7 @@
     transition: 0.5s;
     border-bottom: solid white 1px;
 }
-@media(max-width: 700px){
+@media(max-width: 800px){
     .large{
         display: none;
     }
@@ -93,5 +95,8 @@
     }
     .logo-menu{
         top: -2%;
+    }
+    .item{
+        padding: 5%;
     }
 }

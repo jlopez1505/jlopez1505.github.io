@@ -1,13 +1,17 @@
+.anvorguesa, .anvorguesito{
+    border: white 2px solid;
+}
 .home{
+    position: sticky;
+    top: 0;
+    left: 0;
     background-image: url("../img/codigo-fuente-programacion.jpg");
     background-attachment: fixed;
     height: 100vh;
     max-width: 100vw;
     overflow: hidden;
-}
-.intro{
-    position: relative;
     transition: 0.5s;
+
 }
 .titulo{
     position: absolute;
@@ -15,11 +19,13 @@
     left: 3%;
     font-size: 15vw;
     color: white;
+    max-width: 50%;
+    transition: 0.5s;
     z-index: 1;
 }
 .copy{
     position: absolute;
-    top: 10%;
+    top: 55px;
     left: 30.5%;
     min-height: 100vh;
     min-width: 120vw;
@@ -29,8 +35,7 @@
     box-sizing: border-box;
     justify-content: right;
     align-items: center;
-    flex-wrap: wrap;
-    transition: 0.5s;
+    transition: 0.5s; 
 }
 .copy h2{
     margin: 8%;
@@ -40,6 +45,7 @@
     margin: 5%;
     display: block;
     color: white;
+    text-shadow: 1px 1px 5px black;
 }
 .move{
     top: 0;
@@ -48,6 +54,50 @@
 }
 .move-titulo{
     text-align: right;
-    left: -60%;
+    top: 15%;
+    left: -10%;
     transition: 0.5s;
+    font-size: 8vw;
+}
+.relativo{
+    position: relative;
+    transition-delay: 5s;
+}
+@media(max-width: 1023px){
+    .titulo{
+        top: 25%;
+    }
+    .copy{
+        align-items: end;
+    }
+    .move-titulo{
+        font-size: 11vw;
+        left: 5%;
+    }
+}
+@media(max-width: 700px){
+    .titulo{
+        font-size: 20vw;
+    }
+    .copy{
+        left: 39%;
+    }
+    .move{
+        left: -20%;
+    }
+    .move-titulo{
+        font-size: 11vw;
+    }
+    .copy h2{
+        max-width: 50%;
+    }
+}
+@media(max-width: 500px){
+    .move-titulo{
+        font-size: 15vw;
+    }
+    .copy h2{
+        max-width: 70%;
+        font-size: larger;
+    }
 }
