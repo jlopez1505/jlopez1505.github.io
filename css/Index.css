@@ -125,6 +125,7 @@
         top: 60vh;
     }
     .services{
+        background-position: center;
         min-height: 850px;
     }
     .services-frame{
@@ -156,9 +157,12 @@
     .especialidad{
         padding-top: 50%;
     }
+    .services{
+        
+    }
     .services-frame{
         margin-top: 20%;
-        height: 80%;
+        min-height: 80%;
         flex-wrap: wrap;
         padding-top: 30%;
     }
@@ -207,5 +211,6 @@
     z-index: 3;
     border: 5px solid fuchsia;
     color: white;
+    padding: 1% 2%;
    } 
 }
