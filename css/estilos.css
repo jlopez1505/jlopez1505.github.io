@@ -38,3 +38,9 @@ body{
 .mar{
     margin: 5%;
 }
+.boton{
+    border: none;
+    border-radius: 5px;
+    background: none;
+    padding: 3% 5%;
+}

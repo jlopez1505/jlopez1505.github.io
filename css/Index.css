@@ -62,6 +62,53 @@
     position: relative;
     transition-delay: 5s;
 }
+.seccion-titulo{
+    font-size: 10vw;
+    min-width: 100%;
+    margin: 0 10%;
+}
+.services{
+    position: relative;
+    background-image: url("../img/ipad-820272_1920.jpg");
+    background-size: cover;
+    min-height: 680px;
+    overflow: hidden;
+    margin-top: 50%;
+}
+.services-intro{
+    max-width: 35%;
+    background-color: white;
+    height: 100%;
+}
+.especialidad{
+    position: relative;
+    padding-top: 15%;
+    z-index: 2;
+}
+.more{
+   margin: 30%; 
+   background-color: rgba(131,58,180,1);
+}
+.services-frame{
+    position: absolute;
+    margin-top: 7%;
+    top: 0;
+    left: 27.5%;
+    background-color: rgba(131,58,180,1);
+    color: white; 
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.services-list{
+   padding: 60% 5% 10% 5%;
+}
+.services-list h3{
+    font-size: xx-large;
+}
+
+
 @media(max-width: 1023px){
     .titulo{
         top: 30%;
@@ -76,6 +123,15 @@
     .slogan{
         left: 53%;
         top: 60vh;
+    }
+    .services{
+        min-height: 850px;
+    }
+    .services-frame{
+        width: 60%;
+    }
+    .services-intro{
+        height:100vh;
     }
 }
 @media(max-width: 700px){
@@ -97,6 +153,25 @@
         left: 35%;
         top: 60vh;
     }
+    .especialidad{
+        padding-top: 50%;
+    }
+    .services-frame{
+        margin-top: 20%;
+        height: 80%;
+        flex-wrap: wrap;
+        padding-top: 30%;
+    }
+    .services-list{
+        padding: 0% 5% 0% 5%;
+    }
+    .services-list h3{
+        font-size: x-large;
+    }
+    .more{
+        margin: 10%;
+        padding: 8%;
+    }
 }
 @media(max-width: 500px){
     .move-titulo{
@@ -109,4 +184,28 @@
         /* max-width: 67%; */
         font-size: larger;
     }
+    .especialidad{
+        padding-top: 67%;
+    }
+    .services-frame{
+        padding-top: 35%;
+        width: 85%;
+        left: 20%;
+        margin-top: 25%;
+    }
+    .services-intro{
+        height:150vh;
+    }
+    .especialidad{
+        font-size: 13vw;
+    }
+   .more{
+    position: absolute;
+    bottom: -2%;
+    left: 45%;
+    transform: translateX(-50%);
+    z-index: 3;
+    border: 5px solid fuchsia;
+    color: white;
+   } 
 }
