@@ -14,11 +14,11 @@ function scroll() {
     if (window.scrollY > 1) {
         intro.classList.add("move-titulo")
         copy.classList.add("move")
-        if(posicionServicios < 200){
+        if(posicionServicios < 50){
             console.log(posicionServicios)
             home.classList.add("relativo")
             nav[0].style.position = "absolute"
-            servicios.style.marginTop = "0"
+            servicios.style.marginTop = "50%"
         } 
         else {
             home.classList.remove("relativo")
