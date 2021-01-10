@@ -39,8 +39,10 @@ body{
     margin: 5%;
 }
 .boton{
+    color: white;
     border: none;
     border-radius: 5px;
     background: none;
     padding: 3% 5%;
+    font-size: medium;
 }

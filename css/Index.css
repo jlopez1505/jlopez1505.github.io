@@ -139,10 +139,11 @@
     position: absolute;
     top: 50%;
     right: -10%;
-    font-size: xxx-large;
+    font-size: xx-large;
 }
 .tarjeta p{
     font-size: small;
+    text-shadow: 3px 3px 3px black;
 }
 .tarjeta a{
     position: absolute;
@@ -151,45 +152,94 @@
     text-decoration: none;
     top: -7%;
     left: 0;
+    color: rgba(252,176,69,1);
 }
 .tarjeta img{
    width: 120%; 
 }
 #tienda h3, #tienda p{
     top: 30%;
-    right: -35%;
+    right: -30%;
 }
 #firstage h3, #firstage p{
     top: 30%;
-    right: 5%;
+    right: 10%;
 }
 #alice h3, #alice p{
     top: 30%;
-    right: -5%;
+    right: 6%;
 }
 #west h3, #west p{
     top: 30%;
-    right: -35%;
+    right: -27%;
 }
 #firstage img, #alice img{
     max-width: 80%;
 }
 #west{
-   position: relative; 
    left: -20%;
 }
-
+.evenMore{
+    display: block;
+    margin: auto;
+    color: rgba(252,176,69,1);
+    position: relative;
+    z-index: 2;
+    font-size: x-large;
+    text-shadow: 3px 3px 3px black;
+    padding: 6%;  
+}
 .contact{
-
+    background: rgb(2, 0, 19);
+    text-align: center;
+    color: rgba(131,58,180,1);
+    position: relative;
+    left: 35%;
+    padding: 4% 0;
+    max-width: 65%;
+}
+.contact h2{
+    /* padding: 6% 0; */
+    font-size: 7.5vw;
+    font-weight: lighter;
+    position: relative;
+    left: -37%;
+    margin: 3% 0 7% 0;
+}
+.gogogo{
+    border: solid;
+    background: none;
+    padding: 1% 4%;
+    font-size: x-large;
+    display: block;
+    border-radius: 50px;
+    margin-left: 5%;
 }
 .foot{
-   background-color: black;
-   color: white; 
-   padding: 5%;
+    background: rgb(2, 0, 19);
+    color: white; 
+    padding: 1% 0 2% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .foot a{
     text-decoration: none;
     color: white;
+    min-width: 25%;
+    text-align: center;
+    padding-top: 25px;
+}
+.foot-img{
+    max-width: 35px;
+    margin: 0% 5%;
+    vertical-align: middle;
+}
+.foot p{
+    text-align: center;
+    font-size: small;
+    margin: 5% 0 0 0;
+    min-width: 100%;
 }
 
 @media(max-width: 1023px){
@@ -301,4 +351,29 @@
     .especialidad{
         font-size: 13vw;
     }
+    .columnas{
+        column-count: 1;
+    }
+    .tarjeta{
+        left: 0;
+        right: 0;
+        margin: 5%;
+    }
+    .tarjeta img{
+        max-width: 100%;
+    }
+    .tarjeta a{
+        position: relative;
+        display: block;    
+    }
+    #west{
+        left: 0;
+    }
+    #tienda h3, #tienda p, #west h3, #west p{
+        right: 0;
+    }
+    .projects{
+        background-position: center;
+    }
+
 }
