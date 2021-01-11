@@ -1,0 +1,74 @@
+.contact{
+    background-image: url("../img/icon-minimalism-black-white-minimal-smartphone-monitor-world.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-content{
+    background-color: rgba(27, 0, 46, 0.795);
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.form-content input, .form-content textarea{
+    font-size: x-large;
+    font-weight: bold;
+    display: block;
+    min-width: 50%;
+    padding: 1%;
+    margin: 1.5% auto;
+    opacity: 80%;
+    border-radius: 20px;
+}
+.formulario{
+    margin-top: 160px;
+}
+#enviar{
+    min-width: 52%;
+}
+#git{
+    position: fixed;
+    bottom: 10%;
+    right: -28%;
+}
+#git img{
+    max-width: 13%;
+}
+#git:hover{
+    opacity: 50%;
+}
+@media(max-width: 1025px){
+    .form-content input, .form-content textarea{
+        min-width: 65%;
+        padding: 3%;
+        margin: 3.5% auto;
+    }
+    #enviar{
+        min-width: 70%;
+    }
+    #git{
+        right: -53%;
+    }
+}
+@media(max-width: 700px){
+    .form-content input, .form-content textarea{
+        font-size: large;
+    }
+    #enviar{
+        min-width: 74%;
+    }
+    #git{
+        right: -104%;
+    }
+}
+@media(max-width: 500px){
+    .form-content input, .form-content textarea{
+        font-size: small;
+    }
+    #enviar{
+        min-width: 74%;
+    }
+    #git{
+        bottom: 3%;
+        right: -134%;
+    }
+}

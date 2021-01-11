@@ -1,6 +1,3 @@
-.anvorguesa, .anvorguesito{
-    border: white 2px solid;
-}
 .home{
     position: sticky;
     top: 0;
@@ -375,5 +372,7 @@
     .projects{
         background-position: center;
     }
-
+    .contact h2{
+        font-weight: normal;
+    }
 }

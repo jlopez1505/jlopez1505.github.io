@@ -1,0 +1,127 @@
+.skills{
+    background: linear-gradient(225deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    min-height: 70vw;
+}
+.turn{
+    font-size: 6vw;
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 5%;
+    left: 0;
+}
+.tarjetas{
+    
+    width: 70%;
+    min-height: 450px;
+    box-shadow: 1px 1px 15px -5px #424242;
+    background-color:  rgb(0, 0, 37);
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    left: 15%;
+    margin: 5%;
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+}
+.skTitle{
+    position: absolute;
+    bottom: 12%;
+    left: -1%;
+    font-size: 4vw;
+    transform: rotate(270deg);
+    margin: 0;
+}
+.tarjetas img{
+    width: 30%;
+    
+}
+.tItem{
+    padding: 2%;
+    width: 20%;
+}
+.progreso{
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(red 50%, rgb(54, 27, 27) 50%);
+    border-radius: 50%;
+    position: relative;
+    transform: rotate(225deg);
+    margin: auto;
+}
+.progreso::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: rgb(0, 0, 37);
+    border-radius: 50%;
+    position: absolute;
+    top: 11%;
+    left: 11%;
+    font-weight: bold;
+    line-height: 40px;
+    color: red;
+    transform: rotate(-225deg);
+    margin: auto;
+}
+.Color2{
+    background: linear-gradient(blue 75%, rgb(27, 27, 56) 25%);
+
+}
+.color3{
+    background: linear-gradient(rgb(28, 56, 28) 75%, green 25%);
+}
+#otros{
+    left: -3%; bottom: 16%;
+}
+#idiom{
+    left: -5%; bottom: 22%;
+}
+@media(max-width: 800px){
+    .tItem{
+        width: 30%;
+    }
+    .skTitle{
+        font-size: 6vw;
+    }
+    .turn{
+        font-size: 10vw;
+    }
+    .tItem{
+        padding: 5%;
+    }
+}
+@media(max-width: 700px){
+    .xpItem{
+        border-radius: 25px;
+    }
+    .tItem{
+        padding: 7%;
+    }
+    .tarjetas img{
+        width: 50%;
+    }
+    .tarjetas{
+        margin-top: 100px;
+        width: 72%;
+    }
+}
+@media(max-width: 500px){
+    .skTitle{
+        left: -5%;
+        font-size: 8vw;
+    }
+    .tItem{
+        width: 30%;
+    }
+    #otros{
+        left: -7%; bottom: 16%;
+    }
+    #idiom{
+        left: -13%; bottom: 22%;
+    }
+}

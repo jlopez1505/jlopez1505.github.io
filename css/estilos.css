@@ -46,3 +46,6 @@ body{
     padding: 3% 5%;
     font-size: medium;
 }
+.b-white{
+    border: white 2px solid;
+}
