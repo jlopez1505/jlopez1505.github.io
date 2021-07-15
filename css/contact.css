@@ -13,17 +13,18 @@
     font-size: x-large;
     font-weight: bold;
     display: block;
-    min-width: 50%;
+    min-width: 40%;
     padding: 1%;
     margin: 1.5% auto;
     opacity: 80%;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 .formulario{
     margin-top: 160px;
 }
 #enviar{
-    min-width: 52%;
+    min-width: 42%;
+    cursor: pointer;
 }
 #git{
     position: fixed;
