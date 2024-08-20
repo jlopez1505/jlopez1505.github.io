@@ -1,0 +1,100 @@
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    z-index: 999999;
+}
+.logo{
+    max-height:80px;
+    float: right;
+    margin-top: 45px;
+    margin-right: 45px;
+}
+.anvorguesa{
+    position: relative;
+    /* border: black 2px solid; */
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 1;
+    margin-top: 55px;
+    margin-left: 45px;
+}
+.anvorguesito{
+    position: relative;
+    /* border: black 2px solid; */
+    width: 60%;
+    margin: 18% auto;
+    transition: 0.5s;
+}
+.desplazamiento1{
+    transform: rotate(135deg);
+    top: 27%;
+    transition: 0.5s;
+}
+.desplazamiento2{
+    transform: rotate(45deg);
+    top: -27%; 
+    transition: 0.5s;
+}
+.desaparecer{
+    width: 0;
+    transition: 0.5s;
+}
+.menu{
+    padding-top: 13%;
+    position: absolute;
+    left: -110%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.595);
+    backdrop-filter: blur(10px);
+    min-width: 100vw;
+    height: 100vh;
+    transition: 0.5s;
+}
+.showMenu{
+    left: 0%;
+    transition: 0.5s;
+}
+.logo-menu{
+    position: absolute;
+    right: 5%;
+    top: 0%;
+}
+.short{
+    display: none;
+}
+.item{
+    text-decoration: none;
+    display: block;
+    font-size: xxx-large;
+    text-align: center;
+    padding: 1%;
+    max-width: 10%;
+    margin-left: 3%;
+    transition: 0.5s;
+}
+.item:hover{
+    font-size: 8vw;
+    color: white;
+    max-width: 50%;
+    transition: 0.5s;
+    border-bottom: solid white 1px;
+}
+@media(max-width: 800px){
+    .large{
+        display: none;
+    }
+    .short{
+        display: block;
+    }
+    .menu{
+        padding-top: 50%;
+    }
+    .item{
+        padding: 5% 8%;
+    }
+}
