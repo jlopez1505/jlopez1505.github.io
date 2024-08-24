@@ -1,14 +1,9 @@
 * {
     color: white;
     margin: 0;
-    /* background-attachment:fixed ; */
     scroll-behavior: smooth;
-}
-body {
-    /* background: linear-gradient(135deg, rgba(140, 0, 240, 1) 0%, rgba(218, 0, 240, 1) 60%, rgba(240, 0, 135, 1) 100%); */
-}
-
 /* Estilos generales */
+}
 .botones {
     border: white 2px solid;
     text-decoration: none;
@@ -70,151 +65,11 @@ input, textarea {
     padding: 2% 5%;
     width: 80%;
     margin: 3% 0 !important;
-    /*   background: linear-gradient(135deg, rgb(140, 0, 240) 0%, rgb(240, 0, 136) 100%); */
-
+}
+.margin-5{
+    margin: 5%;
 }
 
-/* Estilos específicos */
-.home {
-    min-width: 1vw;
-    min-height: 100vh;
-    background: linear-gradient(135deg, rgba(140, 0, 240, 1) 0%, rgba(218, 0, 240, 1) 60%, rgba(240, 0, 135, 1) 100%);
-    margin: auto;
-    text-align: center;
-    padding: 10%;
-    align-items: center;
-}
-#nombre, #projects h2 {
-    font-size: 10vw;
-}
-.titulo {
-    font-family: "Jersey 10", sans-serif;
-    font-weight: 700;
-    font-size: 20vw;
-    line-height: 0.8;
-    /* padding: 10px; */
-}
-#work-resume {
-    padding: vw;
-    padding: 10vw 3vw 20vw 3vw;
-}
-#scroll-icon {
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0.5;
-}
-#scroll-icon img {
-    max-width: 80px;
-}
-#projects {
-    padding: 5% 0;
-    background: linear-gradient(235deg, rgba(240, 0, 135, 1) 0%, rgba(218, 0, 240, 1) 40%, rgba(240, 190, 0, 1) 100%);
-}
-.proyecto-container{
-    margin-top: 10%;
-}
-.proyecto{
-    margin-top: 10%;
-}
-.proyecto, .proyecto-descripcion{
-    width: 80vw;
-    height: 80vw;
-    border-radius: 10px;
-    position: relative;
-}
-.proyecto p {
-    font-size: x-small;
-    margin-top: 20px;
-}
-.proyecto-descripcion {
-    width: 80vw;
-    height: 80vw;
-    background-color: rgba(0, 0, 0, 0.799);
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 12%;
-    opacity: 0;
-    transition: 0.5s;
-}
-.proyecto-descripcion:hover {
-    opacity: 1;
-    backdrop-filter: blur(5px);
-    transition: 0.5s;
-}
-#davinci {
-    background-image: url("../img/davinci-landing.png");
-    background-size: cover;
-}
-#koggi {
-    background-image: url("../img/koggi-landing.png");
-    background-size: cover;
-}
-#weconnect {
-    background-image: url("../img/weconnect-landing.png");
-    background-size: cover;
-}
-#luar {
-    background-image: url("../img/web_luar.png");
-    background-size: cover;
-}
-#skills {
-    background: linear-gradient(325deg, rgba(135, 0, 230, 1) 0%, rgba(218, 0, 240, 1) 40%, rgba(240, 190, 0, 1) 100%);
-}
-.competencias, .educacion{
-    margin: 3%;
-    padding: 2%;
-    width: 40vw;
-    height: 40vw;
-}
-.competencias {
-    border: 3px solid white;
-    border-radius: 10px;
-    line-height: 1.2;
-}
-.competencias span,.competencias h4 {
-    display: block;
-    /* font-size: small; */
-}
-.educacion {
-    margin: 3%;
-    padding: 2%;
-    width: 40vw;
-    height: 40vw;
-    text-align: center;
-}
-.certificaciones {
-    padding: 7% 0%;
-}
-.educacion img {
-    width: 80px;
-}
-#contact {
-    background-color: black;
-}
-#contact a {
-    text-decoration: none;
-    text-align: center;
-}
-.logos img {
-    padding: 20%;
-    width: 80px;
-}
-.submit {
-    background-color: #D3F000;
-    margin-top: 20px;
-}
-#copyright {
-    text-align: center;
-    padding: 7%;
-    font-size: small;
-    margin: 0;
-}
-.contacto-icon img{
-    width: 30px;
-}
 @media (min-width: 1024px) {
     body{
         background: linear-gradient(135deg, rgba(140, 0, 240, 1) 0%, rgba(218, 0, 240, 1) 60%, rgba(240, 0, 135, 1) 100%);
@@ -227,8 +82,6 @@ input, textarea {
         margin-left: 1vw;
     }
     #home{
-        /* background: none;*/        
-        /* text-align: left; */
         overflow: hidden;
     }
     #nombre{
@@ -258,11 +111,8 @@ input, textarea {
         bottom: 1%;
         left: 10%;
     }
-   /*  #scroll-icon img {
-        max-width: 110px;} */
     #projects{
        padding: 0;
-    /*background: none;*/    
     }
     .proyecto-container{
         margin: 0;
