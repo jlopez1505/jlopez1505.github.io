@@ -128,12 +128,117 @@
     background-color: #D3F000;
     margin-top: 20px;
 }
-#copyright {
-    text-align: center;
-    padding: 7%;
-    font-size: small;
-    margin: 0;
-}
 .contacto-icon img{
     width: 30px;
+}
+@media (min-width: 1024px) {
+    #home a:first-of-type{
+        margin-left: 1vw;
+    }
+    #home{
+        overflow: hidden;
+    }
+    #nombre{
+        padding: 5vw;
+        font-size: 4vw;
+        position: relative;
+        left: -30%;
+    }
+    #projects h2, #skills h3, #contact h3{
+        font-size: 4vw;
+    }
+    .titulo{
+        padding: 4vh 5vw 4vh 5vw;
+        padding-top: 2vw;
+        font-size: 12vw;
+        position: relative;
+        left: 19%;
+    }
+    #separador{
+        display: none;
+    }
+    #work-resume{
+        padding: 0 5vw 7vh 5vw;
+        font-size:  x-large;
+    }
+    #scroll-icon{
+        bottom: 1%;
+        left: 10%;
+    }
+    #projects{
+       padding: 0;
+    }
+    .proyecto-container{
+        margin: 0;
+    }
+     .proyecto, .proyecto-descripcion{
+        width: 35vw;
+        height: 35vw;
+        margin: 3%;
+     }
+     .proyecto-descripcion{
+        margin: 0;
+     }
+     .proyecto p {
+        font-size: medium;
+        margin-top: 20px;
+    }
+    .competencias, .educacion{
+        margin: 1%;
+        font-size: x-large;
+        width: 20vw;
+        height: 20vw;
+    }
+    .competencias h4{
+        font-size: xx-large;
+    }
+    .certificaciones{
+        padding: 3% 0;
+    }
+    .educacion{
+        margin: 0;
+        font-size: large;
+    }
+    .educacion img {
+        width: 120px;
+    }
+    .datos-contacto, .form-contacto{
+        width: 45%;
+    }
+    .datos-contacto a{
+        margin: 10%;
+        font-size: x-large;
+    }
+    .logos img{
+        width: 150px;
+    }
+}
+@media (min-width: 1910px) {
+    .proyecto-container{
+        padding-bottom: 3%;
+    }
+    .proyecto, .proyecto-descripcion{
+        width: 25vw;
+        height: 25vw;
+        margin: 2%;
+     }
+     .proyecto-descripcion{
+        margin: 0;
+     }
+     .competencias{
+        width: 15vw;
+        height: 15vw;
+    }
+    .educacion{
+        font-size: x-large;
+    }
+    .educacion img {
+        width: 200px;
+    }
+    .certificaciones{
+        padding: 3% 0 5% 0;
+    }
+    .logos img{
+        width: 200px;
+    }
 }

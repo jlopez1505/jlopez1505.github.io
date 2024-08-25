@@ -1,12 +1,19 @@
 let menu = document.getElementById("menu");
 let botonMenu = document.getElementById("anvorguesa");
+let menuItem = document.getElementsByClassName("item");
 let raya1 =document.getElementById("linea1");
 let raya2 =document.getElementById("linea2");
 let raya3 =document.getElementById("linea3");
-let home = document.getElementById("home");      
+let home = document.getElementById("home");
+/* let navBar = document.getElementById("nav-bar");*/
 let visible = false;
 
-botonMenu.addEventListener("click", function desplegar() {
+function algo() {
+  console.log("hola");
+  
+}
+
+function desplegar() {
   if (!visible) {
     navBar.setAttribute("style","background-color: none; transition:0.2s")
     menu.classList.add("showMenu")
@@ -23,4 +30,11 @@ botonMenu.addEventListener("click", function desplegar() {
     raya3.classList.remove("desplazamiento2")
     visible = false
   }
-})
+}
+botonMenu.addEventListener("click", desplegar);
+
+for (let a = 0; a < menuItem.length; a++) {
+  menuItem[a].addEventListener("click", desplegar);
+  console.log(menuItem[a]);
+  
+}
