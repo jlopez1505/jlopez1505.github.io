@@ -77,7 +77,7 @@ input, textarea {
     margin: 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
     body{
         background: linear-gradient(135deg, rgba(140, 0, 240, 1) 0%, rgba(218, 0, 240, 1) 60%, rgba(240, 0, 135, 1) 100%);
     }

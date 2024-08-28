@@ -34,9 +34,9 @@ body{
     left: 45%;
 }
 .enlace-site img{
-    width: 30px;
-    margin: 5%;
-}
+    width: 60px;
+/*     margin-left: 5%;
+ */}
 .sub-titulo{
     padding-top: 10%;
     font-size: 8vw;
@@ -59,4 +59,70 @@ body{
     padding: 3%;
     border: solid 2px white;
     border-radius: 5px;
+}
+@media (min-width: 1024px) {
+    #titulo-proyecto{
+        font-size: 7vw;
+    }
+    .tipo-proyecto{
+        font-size: xx-large;
+    }
+    .enlace-site{
+        font-size:large ;
+        left: 75%;
+    }
+    .enlace-site img{
+        padding: 2%;
+        width: 80px;
+    }
+    .sub-titulo{
+        font-size: 5vw;
+    }
+    p{
+        font-size: large !important;
+    }
+    .img-movil{
+        width: 50% !important;
+    }
+}
+@media (min-width: 1910px) {
+    body{
+        padding: 5%;
+    }
+    #home-proyecto{
+        padding-bottom: 5%;
+    }
+    #titulo-proyecto{
+        font-size: 5vw;
+        width: 100%;
+        text-align: center;
+    }
+    .proyecto-img{
+        width: 50%;
+        margin: auto;
+    }
+    .enlace-site{
+        font-size:large ;
+        left: 82%;
+    }
+    .enlace-site img{
+        width: 100px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .sub-titulo{
+        font-size: 3vw;
+        padding-top: 8%;
+    }
+    .tecnologia{
+        margin: 1%;
+    }
+    .overview-proyecto{
+        width: 50%;
+        text-align: center;
+    }
+    .tecnologia-contenedor{
+        width: 50%;
+        text-align: center;
+    }
 }

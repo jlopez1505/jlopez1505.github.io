@@ -2,36 +2,78 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koggi - Elementor - Wordpress</title>
+  <link rel="stylesheet" href="css/proyecto.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/navBar.css">
+  <link rel="icon" href="img/jlopez-favicon-96x96.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gruppo&family=Hammersmith+One&family=Jersey+10&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mooli&family=Rubik+Mono+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
 </head>
 
-<body>
-    <div>
-        <h1>Nombre proyecto</h1>
-        <img src="" alt="">
-        <p>Descripción del proyecto y concepto</p>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-        <div>
-            <h3>Tecnologías usadas</h3>
-            <div>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+<body onscroll="scroll()">
+  <nav class="nav-bar" id="nav-bar">
+    <div class="anvorguesa mar b-white" id="anvorguesa">
+      <div id="linea1" class="anvorguesito b-white"></div>
+      <div id="linea2" class="anvorguesito b-white"></div>
+      <div id="linea3" class="anvorguesito b-white"></div>
     </div>
-    <div>
-
+    <a href="index.html">
+      <img class="logo mar" src="img/iniciales.png" alt="">
+    </a>
+    <div class="menu" id="menu">
+      <a href="" class="mar logo-menu">
+        <img class="large" src="img/logo-inv-web.png" alt="">
+        <img class="short logo" src="img/iniciales.png" alt="">
+      </a>
+      <a class="item txt-green" href="index.html">Home</a>
+      <!-- <a class="item txt-green" href="about.html">About</a> -->
+      <a class="item txt-green" href="index.html#projects">Projects</a>
+      <a class="item txt-green" href="index.html#contact">Contact</a>
     </div>
-
+  </nav>
+  <div class="proyecto">
+    <div id="home-proyecto" class="flex">
+      <h1 id="titulo-proyecto" class="gruppo txt-green">Koggi</h1>
+      <span class="tipo-proyecto gruppo">Landing page - Elementor - Wordpress</span>
+      <img src="img/koggi-landing-constructora.png" alt="">
+      <a class="enlace-site" href="https://koggi.co"><img src="img/enlace-externo.png" alt="">Accede al sitio</a>
+      <h2 class="gruppo txt-green sub-titulo">Overview</h2>
+      <p>Koggi, una startup enfocada en la simplificación del proceso de compra de vivienda necesitaba una landing capaz
+        de plasmar esa visión en la web, con la misión principal de unir a compradores y constructoras garantizando la
+        mejor de experiencia de usuario. Wordpress y Elementor fueron las tecnologías usadas para crear está una landing
+        atractiva, flexible e intuitiva como Koggi. </p>
+      <div class="tecnologia-contenedor">
+        <h3 class="sub-titulo gruppo txt-green">Tecnologías usadas</h3>
+        <div>
+          <span class="tecnologia">Wordpress</span>
+          <span class="tecnologia">Elementor</span>
+          <span class="tecnologia">Cpanel</span>
+          <span class="tecnologia">Analytics/Tag Manager/Search Console</span>
+        </div>
+      </div>
+    </div>
+    <div class="proyecto-img">
+      <img src="img/koggi-landing.png" alt="">
+      <p>Una interfaz funcional pero a la vez cercana que apela directamente al sueño de sus usuarios y de muchas personas de tener casa propia para disfrutar con su familia, call to action claros y concisos que invitan a calcular el credito de tu futura vivienda.</p>
+      <img src="img/koggi-landing-interfaz.png" alt="">
+      <p>Apartado donde se destacan los valores diferenciales de la plataforma así como se eliminan posibles dudas o barreras de los prospectos a la hora de confiar en la plataforma para hacer la intermediación en sus créditos.</p>
+      <img src="img/koggi-landing-responsive.png" alt="">
+      <p>Apartado en el que se muestran de manera gráfica los principios o la visión de Koggi de cómo debería ser el mercado de vivienda en Colombia, simple, accesible y enfocado en dignificar a las familias. Usando íconos y colores que otorguen seguridad y confianza en la plataforma y en el proceso de compra de vivienda</p>
+      <!-- <img src="img/koggi-landing-responsive2.png" alt="">
+      <p>Chatbot creado para recibir leads y casos de soporte directamente en la página. Creado en Dialogflow con
+        integración de funciones como, actualización de hojas de cálculo con nuevos leads y envío de correos con
+        Nodemailer.
+      </p> -->
+    </div>
+  </div>
+  <script src="js/menu-responsive.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>

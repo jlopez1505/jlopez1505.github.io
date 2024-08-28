@@ -8,11 +8,6 @@ let home = document.getElementById("home");
 /* let navBar = document.getElementById("nav-bar");*/
 let visible = false;
 
-function algo() {
-  console.log("hola");
-  
-}
-
 function desplegar() {
   if (!visible) {
     navBar.setAttribute("style","background-color: none; transition:0.2s")
@@ -34,7 +29,5 @@ function desplegar() {
 botonMenu.addEventListener("click", desplegar);
 
 for (let a = 0; a < menuItem.length; a++) {
-  menuItem[a].addEventListener("click", desplegar);
-  console.log(menuItem[a]);
-  
+  menuItem[a].addEventListener("click", desplegar);  
 }
